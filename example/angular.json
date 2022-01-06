@@ -107,19 +107,6 @@
 						"scripts": []
 					}
 				},
-				"lint": {
-					"builder": "@angular-devkit/build-angular:tslint",
-					"options": {
-						"tsConfig": [
-							"projects/host/tsconfig.app.json",
-							"projects/host/tsconfig.spec.json",
-							"projects/host/e2e/tsconfig.json"
-						],
-						"exclude": [
-							"**/node_modules/**"
-						]
-					}
-				},
 				"e2e": {
 					"builder": "@angular-devkit/build-angular:protractor",
 					"options": {
@@ -233,19 +220,6 @@
 							"projects/mf/src/styles.scss"
 						],
 						"scripts": []
-					}
-				},
-				"lint": {
-					"builder": "@angular-devkit/build-angular:tslint",
-					"options": {
-						"tsConfig": [
-							"projects/mf/tsconfig.app.json",
-							"projects/mf/tsconfig.spec.json",
-							"projects/mf/e2e/tsconfig.json"
-						],
-						"exclude": [
-							"**/node_modules/**"
-						]
 					}
 				},
 				"e2e": {

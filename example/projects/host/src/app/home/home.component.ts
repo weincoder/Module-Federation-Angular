@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { loadRemoteModule } from '@angular-architects/module-federation';
+import { Component, ComponentFactoryResolver, ComponentRef, OnInit, ViewContainerRef } from '@angular/core';
+import { ShowmfComponent } from 'projects/mf/src/app/showmf/showmf.component';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  constructor(  private cfr: ComponentFactoryResolver,
+    private vcref: ViewContainerRef) { }
 
-  ngOnInit(): void {
+  async ngOnInit(): Promise<void> {
+    
   }
+  
 
 }

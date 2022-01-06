@@ -11,7 +11,7 @@ const routes: Routes = [
   {
     path: 'mf',
     loadChildren: () => 
-      import("./showmf/showmf.component").then((m) => m.ShowmfComponent),
+      import("./showinfo/showinfo.module").then((m) => m.ShowinfoModule),
   },
 ];
 
