@@ -1,4 +1,4 @@
-# Como comenzar en webpack con Angular 💥👾
+# Como comenzar en webpack5 con ModuleFederation más Angular💥👾
 
 Bueno en primer lugar en este tutorial utilizaremos la librería, module federation apoyandonos de esto https://www.npmjs.com/package/@angular-architects/module-federation 
 
